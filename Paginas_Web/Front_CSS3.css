@@ -1,0 +1,171 @@
+**{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font: bold 20px sans-serif; /*especifica el peso o grueso de la letra*/
+    color: #007bb8;
+}
+
+h2 {
+    font: bold 20px sans-serif; /*especifica el peso o grueso de la letra*/
+    color: rgb(216, 19, 19);
+}
+
+body {
+    text-align: center; /*Alinear texto hacia el centro */
+    background-color:#41b9ff;
+}
+
+#Cuerpo {
+    width: 950px; /* anchura del area de contenido de un elemento 
+					dentro del padding, borde, y margen del elemento */
+	
+    margin: 15px auto; /*establece el margen automatica para los cuatro lados */
+
+    text-align: left; /* Alinear Texto: Borde Izquierdo*/
+    float: center; /*personalizar hacia el centro*/
+}
+
+#Encabezado {
+	background-color: aliceblue; /* Color de Fondo */ 
+	border: 5px solid #000000;
+	padding: 15px; /*Area de Relleno - contenido dentro de la márgen*/
+	text-align: center; /*Alinear texto hacia el centro */
+	border-radius: 50px; /*Esquinas Redondeadas*/
+	margin-bottom: 10px; /*Bajar un poco barra de menu*/
+}
+
+.Titulo1{
+    font-family: fantasy;       /*Tipo de letra*/
+    font-size: 300%;            /*Tamaño de letra*/
+    color: rgb(216, 19, 19);
+
+}
+
+.Titulo2{
+    font-family: "Homer Simpson UI";       /*Tipo de letra*/ 
+    font-size: 150%;                       /*Tamaño de letra*/
+    color: rgb(216, 19, 19);
+}
+
+#Menu Li{
+    display: inline-block; /* pantalla: bloque en línea*/
+    list-style: none;
+    font: bold 14px verdana, sans-serif; /*especifica el peso o grueso de la letra*/
+    text-align: left; /* Alinear Texto: Borde Izquierdo*/
+    color: #000000;
+    background: #ffffff; /* Color de Fondo */
+    padding: 10px 20px; /* Area Relleno*/
+    background: -webkit-linear-gradient(top, #eeeeee, #007bb8); /*Personalizar color Bordes*/
+    background: -moz-linear-gradient(top, #ff0000, #006699); /*Personalizar color Bordes*/
+    border-radius: 20px; /*Esquinas Redondeadas*/
+    border-bottom-width: 10px; /*anchura del area */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#Sección {
+    float: left; /*personalizar hacia la izquiera*/
+    width: 380px; /*anchura*/
+    margin: 30px; /*margen*/
+    height: auto; /*altura*/
+}
+
+article {
+    background:#a49b3d; /* Color de Fondo */
+    border: 1px solid #999999; /* Personalizar Borde */
+    padding: 5px; /*Area de Relleno - contenido dentro de la márgen*/
+    width: 450px;
+    margin-bottom: 10px; /*Bajar un poco barra de menu*/
+    -moz-border-radius: 20px; /*Esquinas Redondeadas*/
+    -webkit-border-radius: 20px; /*Esquinas Redondeadas*/
+    border-radius: 20px; /*Esquinas Redondeadas*/
+    -moz-box-shadow: rgb(175, 131, 131) 5px 5px; /*Personalizar borde difuminacion color*/
+    -webkit-box-shadow: rgb(75, 9, 9) 5px 5px; /*Personalizar borde difuminacion color*/
+    box-shadow: rgb(0, 0, 0) 5px 5px; /*Personalizar difuminacion color*/
+}
+
+article footer {
+    text-align: right; /* Alinear texto hacia la izquierda */
+}
+
+#Formulario {
+    float:right; /* Ubicar hacia la derecha*/
+    width:210px; /* anchura del area*/
+    margin:50px 60px; /* margen*/
+    padding: 15px; /*area de relleno*/
+    background: aliceblue; /* Color de Fondo */
+    border-radius: 30px; /*Esquinas Redondeadas*/
+    border: 5px solid #000000; /*personalizar borde*/
+}
+#Formulario:hover{
+	background: rgb(189, 206, 254); /* Color de Fondo */
+    border-radius: 30px; /*Esquinas Redondeadas*/
+    transition: all 1s;
+}
+
+.Miform {
+    width: 180px; /*anchura del area*/
+    clear: both;
+}
+
+.Miform input {
+    width: 100%; /*anchura del area*/
+    clear: both;
+}
+
+#Pie_Pagina{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 800px; /*anchura del area*/
+    margin: 5px; /*margen*/
+    border-radius: 20px; /*Esquinas Redondeadas*/
+    box-shadow: rgb(26, 73, 139) 5px 5px; /*Personalizar difuminacion color*/
+    padding: 20px; /*area de relleno*/
+    border-style: solid; /*estilo de borde*/
+    border-bottom-width: 10px; /*anchura del area*/
+}
+
+.Logo1 {
+    width: 250px; /*anchura del area*/
+    cursor: pointer;
+    border-radius: 20px;    /*Esquinas Redondeadas*/
+}
+.Logo2{
+    width: 150px; /*anchura del area*/
+    cursor: pointer;
+    border-style: solid;
+    /*border-bottom-width: 10px;*/
+    border-radius: 10px;    /*Esquinas Redondeadas*/
+}
+.Logo3{
+    width: 150px; /*anchura del area*/
+    cursor: pointer;
+    border-style: solid;
+    /*border-bottom-width: 10px; /*anchura del area*/
+    border-radius: 10px;    /*Esquinas Redondeadas*/
+}
+
+.mision{
+	background: rgb(200, 255, 215); /* Color de Fondo */
+	transition: all 1s;
+}
+
+.mision:hover{
+	background: rgb(0, 255, 68); /* Color de Fondo */
+}
+
+.vision{
+    background: rgb(255, 250, 161); /* Color de Fondo */
+	transition: all 1s;
+}
+
+.vision:hover{
+	background: rgb(255, 242, 0) /* Color de Fondo */
+}
+
+
+
